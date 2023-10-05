@@ -11,6 +11,8 @@ import androidx.compose.ui.res.painterResource
 import com.example.cloudmessagingandroid.R
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.PermissionState
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.messaging.ktx.messaging
 
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable
@@ -36,6 +38,7 @@ fun FirebaseMessagingNotificationPermissionDialog(
                 TextButton(onClick = {
                     showNotificationDialog.value = false
                     notificationPermissionState.launchPermissionRequest()
+                    Firebase.messaging.subscribeToTopic("Tutorial")
                 }) {
                     Text(text = "OK")
                 }
