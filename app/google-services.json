@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "543778040419",
+    "project_id": "cloudmessaging-43a07",
+    "storage_bucket": "cloudmessaging-43a07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543778040419:android:f34432894eb6f0e4ef2656",
+        "android_client_info": {
+          "package_name": "com.example.cloudmessagingandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543778040419-3iiddr0mep4ofgd1kbguntti35uriluu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC077xeSkc0TwMNRnMtUU_tvz9Eiy78b0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543778040419-3iiddr0mep4ofgd1kbguntti35uriluu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "543778040419-btcq0vaq2q8figi63a281ssq7gbq80uh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kenmaro.CloudMessagingIos"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
